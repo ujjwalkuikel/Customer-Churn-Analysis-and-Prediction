@@ -1,4 +1,3 @@
-
 # 📉 Customer Churn Analysis & Prediction Dashboard
 
 This project explores customer churn using a business intelligence dashboard, combined with predictive modeling to identify key churn drivers and help stakeholders take actionable retention steps.
@@ -17,21 +16,22 @@ Customer churn is a major concern for subscription-based businesses. Identifying
 
 ## 🛠 Tools & Technologies
 
-| Type | Tools |
-|------|-------|
-| Data Analysis | Python (Pandas, NumPy), Power BI |
-| Visualization | Power BI |
-| Machine Learning | Scikit-learn (Decision Tree, Random Forest) |
-| Data Handling | Excel/CSV, Power Query |
-| Explainability (Optional) | SHAP (for model interpretation) |
+| Type                      | Tools                                       |
+| ------------------------- | ------------------------------------------- |
+| Data Analysis             | Python (Pandas, NumPy), Power BI            |
+| Visualization             | Power BI                                    |
+| Machine Learning          | Scikit-learn (Decision Tree, Random Forest) |
+| Data Handling             | Excel/CSV, Power Query                      |
+| Explainability (Optional) | SHAP (for model interpretation)             |
 
 ---
 
 ## 📊 Dashboard Highlights
 
-![Churn Dashboard](./images/churn_dashboard_sample.png) <!-- Replace with your actual screenshot path -->
+![Churn Dashboard](./images/dashboard.png) <!-- Replace with your actual screenshot path -->
 
 **Key Features:**
+
 - High-level KPIs: Total Customers, Total Churn, Churn Rate, New Joiners
 - Churn Breakdown by:
   - **Contract Type**
@@ -51,17 +51,21 @@ Customer churn is a major concern for subscription-based businesses. Identifying
 Predict customer churn using classification models based on customer features.
 
 **Models Used:**
+
 - Decision Tree Classifier
 - Random Forest Classifier
 
 **Metrics:**
+
 - Accuracy, Precision, Recall, F1-score
 - Confusion Matrix
 
 **Feature Importance:**
+
 - Identified top churn indicators like Contract Type, Tenure, and Monthly Charges using model interpretation techniques.
 
 **Next Steps:**
+
 - Integrate predictions into Power BI via Python visual or Streamlit app.
 - Add SHAP plots to explain model decisions.
 
@@ -101,7 +105,8 @@ Churn-Analysis/
 
 ## 🚀 How to Run
 
-1. Clone the repository  
+1. Clone the repository
+
 ```bash
 git clone https://github.com/ujjwalkuikel/churn-analysis-dashboard.git
 cd churn-analysis-dashboard
@@ -109,7 +114,8 @@ cd churn-analysis-dashboard
 
 2. Open `churn_dashboard.pbix` in Power BI Desktop.
 
-3. To run the ML models:  
+3. To run the ML models:
+
 ```bash
 pip install -r requirements.txt
 jupyter notebook notebooks/churn_modeling.ipynb
