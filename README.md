@@ -28,7 +28,7 @@ Customer churn is a major concern for subscription-based businesses. Identifying
 
 ## 📊 Dashboard Highlights
 
-![Churn Dashboard](./images/dashboard.png) <!-- Replace with your actual screenshot path -->
+![Churn Dashboard](./Images/dashboard.png) <!-- Replace with your actual screenshot path -->
 
 **Key Features:**
 
